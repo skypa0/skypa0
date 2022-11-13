@@ -1,213 +1,208 @@
-*{
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: bilagike;
+    src: url(Bilagike.otf);
 }
 @font-face {
-    font-family: mon;
-    src: url(fonts/Montserrat-Black.ttf); 
+    font-family: monbold;
+    src: url(/fonts/Montserrat-Bold.ttf);
 }
 @font-face {
-    font-family:monlight ;
-    src: url(fonts/Montserrat-ExtraLight.ttf);
-
-
+    font-family:monita ;
+    src: url(/fonts/Montserrat-Italic.ttf);
+}
+@font-face {
+    font-family: monreg;
+    src: url(/fonts/Montserrat-Regular.ttf);
 }
 @font-face {
     font-family: monmed;
-    src: url(fonts/Montserrat-Medium.ttf);
+    src: url(/fonts/Montserrat-Medium.ttf);
 }
-@font-face {
-    font-family: monreg ;
-    src: url(fonts/Montserrat-Regular.ttf);
+
+body{
+    height: 100%;
+    background: linear-gradient(90deg, #000000 50%, #ffffff 50%);
 }
-.navbar{
-    margin-top: 0.5%;
+
+.image img{
+    width: 30%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-top: 12.5%;
 }
-.navbar img{
-    width: 7%;
-    margin-left: 14%;
-}
-.navbar ul{
+.all{
+    margin-left: 25%;
     
+}
+.content h1{
+    color: white;
+    font-family: monbold;
+    font-size: 3rem;
+    margin-left: -2%;
+    
+}
+.content p {
+    color: white;
+    font-family: monreg;
+    font-size: 1.5rem;
+    margin-left: -4%;
+}
+.price h2{
+    color: white;
+    font-family: monmed;
+    font-size: 3rem;
+    margin-left: 7%;
+}
+.visaimage img{
+    width:7ch;
     float: right;
-    padding: 0;
-    margin: 0;
-    margin-right: 15%;
+    margin-right: 40%;
+    margin-top: -33.4%;
+}
+.bord2{
+    margin-right: 4.5%;
+    margin-top: -2.5%;
+}
+.info label{
+    color: rgb(0, 0, 0);
+    float: right;
+    font-family: monbold;
+  
+}
+.content2{
+    float: right;
+    margin-right: 28.9%;
+    margin-top: -34.7%;
+    font-family: monbold;
+    font-size: 20px;
+}
+.holder{
+    float: right;
+    margin-right: 34.9%;
+    margin-top: -27%;
+    font-family: monreg;
+    font-weight: 900;
     
+}
+.holder label{
+    font-size: 20px;
+}
+.holder input {
+    margin-top: 10px;
+}
+.number{
+    float: right;
+    margin-right: 35%;
+    margin-top: -22%;
+    font-weight: 900;
+    font-family: monreg;
+}
+.number label{
+    font-size: 20px;
+    
+}
+.number input{
+    margin-top: 10px;
+}
+.date{
+    float: right;
+    margin-right: 35.2%;
+    margin-top: -17%;
+    font-family: monreg;
+    font-weight: 900;
+}
+.date label {
+    
+    font-size: 20px;
+}
+.date input{
+    margin-top: 10px;
+    width: 85%;
+}
+.cvc{
+    float: right;
+    margin-right: 34.9%;
+    margin-top: -12%;
+    font-family: monreg;
+    font-weight: 900;
+}
+.cvc label{
+    font-size: 20px;
+}
+.cvc input {
+    margin-top: 10px;
+}
+.bor {
+    margin-top: 5%;
+
+    
+}
+.bor input{
+    padding: 15px;
+    border: solid rgba(0, 0, 0, 0.219) 0.5px;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.178);
+    text-align: left;
+}
+.but button {
+    float: right;
+    margin-right:34.4%;
+    margin-top: -5.5%;
+    background-color: rgb(1, 87, 87);
+    padding: 18px;
+    border-radius: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: monbold;
+    font-size: 25px;
+    font-weight: 900;
 }
 
-.navbar li {
-    display: inline-block;
-    padding: 9px;
-}
-.navbar a{
-    text-decoration: none;
-    color: black;
-    font-family: monmed;
-    background-color: white;
-    transition: all 0.55s ease-in-out;
-    padding: 15px;
-    border-radius: 12px;
+.navbar ul {
+    float: right;
+    margin-right: 10%;
+    margin-top: -16.8px;
     
+    
+}
+.navbar li{
+    display: inline-block;
+    
+   
+    margin: 25px;
+    
+    
+
+}
+
+.navbar a {
+    padding: 12px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: monmed;
+    font-size: 20px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    
+ 
 }
 .navbar a:hover{
-    background-color: orangered;
+    background-color: #000000;
     color: white;
 }
-section{
-
-    text-align: center;
-    padding: 10%;
-    background-image: url(/images/man-and-woman.jpg);
-    height:30%;
-
-}
-section .firstpage {
-    padding: 10%;
-    
-}
-.firstpage h1{
-    font-family: mon;
+.navbar p {
     color: white;
-    padding: 0.1%;
-    font-size: 50px;
-    width: 60%;
-    margin-left: 20%;
-}
-.firstpage p{
-    font-family: monlight;
-    color: rgb(255, 255, 255);
-    padding: 1%;
-    
-}
-.firstpage button{
-    background-color: orangered;
-    border: none;
-    padding: 0.5%;
-    border-radius: 12px;
-    
-}
-
-.firstpage  a{
-    font-family: monmed;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    color: white;
-    font-size: 18px;
-
-}
-
-.secondpage1{
-    text-align: center;
-    padding: 10%;
-}
-.secondpage1 img{
-    width: 30%;
-    margin-right: 20%;
-    margin-top: -5%;
-}
-.secondpage1 h2{
-    font-family: mon;
-    margin-left: 34.5%;
-    margin-bottom: 2%;
-    margin-top: -20.5%;
+    margin: 35px;
+    font-weight: 9500;
     font-size: 30px;
-    
-}
-
-.secondpage1 p {
-    font-family: monmed;
-    width: 30%;
-    margin-left: 56%;
-    text-align: left;
-    margin-bottom: 2%;
-    font-size: 20px;
-
-}
-.secondpage1 button{
-    margin-left: 21%;
-    background-color: orangered;
-    
-    padding: 0.5%;
-    border-radius: 12px;
-    transition: all 1s;
+    margin-left: 12.5%;
+    margin-bottom: -3.5%;
     
 
-}
-.secondpage1 button:hover{
-    background-color: white;
-    border-color: orangered;
-}
-.secondpage1 a{
-    font-family: monmed;
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-    font-size: 18px;
-    transition: all 0.11s ease-in-out;
-    
-}
-.secondpage1 a:hover{
-    color: orangered;
-}
-.secondpage2{
-    text-align: center;
-    padding: 10%;
-}
-.secondpage2 h3{
-    font-family: mon;
-    margin-right: 30.5%;
-    font-size: 30px;
-    margin-bottom: 2%;
-    margin-top: -20%;
-}
-.secondpage2 p{
-    font-family: monmed;
-    font-size: 20px;
-    width: 30%;
-    text-align: left;
-    margin-left: 25%;
-    margin-bottom: 2%;
-
-}
-.secondpage2 button{
-    background-color: orangered;
-
-    padding: 0.5%;
-    border-radius: 12px;
-    margin-right: 40.8%;
-    transition: all 1s;
-
-}
-.secondpage2 a{
-    font-family: monmed;
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-    font-size: 18px;
-    transition: all 0.11s ease-in-out;
-}
-.secondpage2 a:hover{
-    color: orangered;
-}
-.secondpage2 button:hover{
-    background-color: white;
-    border-color: orangered;
-    
-}
-.secondpage2 img{
-    width: 30%;
-    margin-top: -17%;
-    margin-left: 40.5%;
-
-}
-.line a {
-    text-decoration: underline;
-    text-decoration-color: orangered ;
-    text-underline-offset: 3px;
-    transition: all 0.55 ease-in-out;
-}
-.line a:hover{
-    text-decoration-color: white;
 }
