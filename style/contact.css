@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: mon;
+    src: url(fonts/Montserrat-Black.ttf); 
+}
+@font-face {
+    font-family:monlight ;
+    src: url(fonts/Montserrat-ExtraLight.ttf);
+
+
+}
+@font-face {
+    font-family: monmed;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: monreg ;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+.navbar{
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+}
+.navbar img{
+    width: 7%;
+    margin-left: 14%;
+}
+.navbar ul{
+    
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-right: 15%;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 9px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-family: monmed;
+    background-color: white;
+    transition: all 0.55s ease-in-out;
+    padding: 15px;
+    border-radius: 12px;
+    
+}
+.navbar a:hover{
+    background-color: orangered;
+    color: white;
+}
+.conta a{
+    text-decoration: underline;
+    text-decoration-color: orangered ;
+    text-underline-offset: 3px;
+    transition: all 0.55 ease-in-out;
+    
+
+}
+.conta a:hover{
+    text-decoration-color: white;
+}
+
+.formname label{
+    font-family: monmed;
+    font-size: 25px;
+    
+}
+.formname label span {
+    color: red;
+    padding: 0.3%;
+}
+.formname input{
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+    padding: 5px;
+}
+.formemail label{
+    font-family: monmed;
+    font-size: 25px;
+}
+.formemail label span{
+    color: red;
+
+}
+.formemail input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: horizontal;
+    padding: 5px;
+    margin-top: 1%;
+    width: 30%;
+}
+.formsexe h1{
+    font-family: monmed;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.container {
+    font-family: monreg;
+}
+.sports h1{
+    font-family: monmed;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.sports label {
+    font-family: monmed;
+    padding: 5px;
+
+}
+.ville{
+    margin-top: 5%;
+}
+.ville label {
+    font-family: monmed;
+    font-size: 25px;
+}
+.village {
+    margin-top: 1%;
+    
+}
+.village select{
+    font-family: monreg;
+    width: 35%;
+    padding: 5px;
+    
+}
+.form h1{
+    font-family: monmed;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-bottom: 1%
+}
+.form h1 span{
+    color: red;
+}
+.form textarea{
+    width: 45%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+}
+.but input{
+    
+    border: 1px solid #ccc;
+    text-decoration: none;
+    background-color: rgb(177, 177, 177);
+    color: black;
+    padding: 25px;
+    font-family: monmed;
+    font-size: 35px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+.all {
+    
+    margin-left: 5%;
+}
